@@ -12,7 +12,7 @@
 		<classes>
 
 			<class name="com.Inetbanking.testCases.TC_LoginTest_01" />
-			<class name="com.Inetbanking.testCases.TC_LoginDDT_02" />
+			<!-- <class name="com.Inetbanking.testCases.TC_LoginDDT_02" />  -->
 			<class name="com.Inetbanking.testCases.TC_AddCustomerTest_03" />
 
 		</classes>

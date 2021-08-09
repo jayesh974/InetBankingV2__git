@@ -1,4 +1,4 @@
-package com.Inetbanking.testCases;
+ package com.Inetbanking.testCases;
 
 import java.io.IOException;
 
@@ -21,7 +21,7 @@ public class TC_AddCustomerTest_03 extends Base_Class
 		logger.info("Passsword is provided");
 		lp.clickSubmit();
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		
 		AddCustomerPage addcust=new AddCustomerPage(driver);
 		
@@ -45,7 +45,7 @@ public class TC_AddCustomerTest_03 extends Base_Class
 		addcust.custpassword("abcdef");
 		addcust.custsubmit();
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		
 		logger.info("validation started....");
 		
